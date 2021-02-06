@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+.container{
+    width:451px;
+    height:648px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top:20px;
+    background-color: #fff;
+}
+.tt{
+    font-size: 22px;
+    margin:45px 0 36px 45px;
+}
+.exit{
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    right:45px;
+    top:36px;
+    
+}
+.log{
+    background:#DEE5F0;
+    margin:0 45px 36px 35px;
+    padding: 22px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.search{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+}
+.log input{
+    border: none;
+    outline:none;
+    background: transparent;
+    font-size: 16px;
+    margin-left: 15px;
+    
+}
+h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left:45px;
+    font-weight: 700;
+}
+li {
+    list-style: none;
+    height:84px;
+    width: 391px;
+    margin:0 30px 10px 30px;
+    display: flex;
+    position: relative;
+    border-radius: 1rem;
+}
+li img{
+    width: 57px;
+    height: 57px;
+    margin:16px 15px 11px 15px;
+}
+.yazi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.yazi h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.yazi p{
+    font-size: 14px;
+}
+.sec{
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    border: none;
+}
+li:nth-child(2){
+    background: #C4CEDC;
+}

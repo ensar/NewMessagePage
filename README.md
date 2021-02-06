@@ -1,0 +1,1 @@
+UI Design Daily sayfasındaki bir tasarımı kodladım.
