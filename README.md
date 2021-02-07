@@ -1,1 +1,1 @@
-UI Design Daily sayfasındaki bir tasarımı kodladım.
+UI Design Daily sitesindeki bir tasarım
